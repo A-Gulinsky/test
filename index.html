@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice cream</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <section class="contacts">
+      <div class="contacts__container container">
+        <div class="snow"></div>
+        <!-- visually-hidden title -->
+        <h2 class="visually-hidden">contacts</h2>
+
+        <!-- card list -->
+        <ul class="contacts__list contacts__list-setting">
+          <!-- card one -->
+          <li class="contacts__list-item">
+            <h3 class="visually-hidden">Location card one</h3>
+
+            <b class="contacts__category">cafe</b>
+
+            <!-- location -->
+            <ul class="contacts__location-list">
+              <li class="contacts__location-item">
+                <p class="contacts__location-text">Chicago</p>
+              </li>
+
+              <li class="contacts__location-item">
+                <a
+                  class="contacts__location-link contacts__location-link--width"
+                  href="https://www.google.com.ua/maps/place/10340+Ridgeland+Ave,+Chicago+Ridge,+IL+60415,+%D0%A1%D0%A8%D0%90/@41.7033215,-87.7796667,20z/data=!4m5!3m4!1s0x880e39ad302b2c19:0xc808e9b14d04eb2b!8m2!3d41.7034016!4d-87.7797405?hl=ru"
+                  rel="noreferrer nofollow noopener"
+                  target="_blank"
+                  >10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</a
+                >
+              </li>
+            </ul>
+
+            <!-- week -->
+            <ul class="contacts__week">
+              <li class="contacts__week-item">
+                <p class="contacts__week-day">Monday - Friday</p>
+                <p class="contacts__week-time">06:00 AM - 10:00 PM</p>
+              </li>
+
+              <li class="contacts__week-item">
+                <p class="contacts__week-day">Saturday - Sunday</p>
+                <p class="contacts__week-time">08:00 AM - 16:00 PM</p>
+              </li>
+            </ul>
+
+            <!-- communicate -->
+            <ul class="contacts__communication">
+              <li class="contacts__communication-item">
+                <a
+                  class="contacts__communication-link"
+                  href="tel:+610383766284"
+                >
+                  +61(0) 383 766 284
+                </a>
+              </li>
+
+              <li class="contacts__communication-item">
+                <a
+                  class="contacts__communication-link"
+                  href="mailto:noreply@envato.com"
+                >
+                  noreply@envato.com
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <!--card two-->
+          <li class="contacts__list-item">
+            <h3 class="visually-hidden">Location card two</h3>
+
+            <b class="contacts__category contacts__category--padding-tab"
+              >foodtruck</b
+            >
+
+            <!-- location -->
+            <ul class="contacts__location-list">
+              <li class="contacts__location-item">
+                <p class="contacts__location-text">Los Angeles</p>
+              </li>
+
+              <li class="contacts__location-item">
+                <a
+                  class="contacts__location-link contacts__location-link--second-width"
+                  href="https://www.google.com.ua/maps/place/1003+Manhattan+Ave,+Manhattan+Beach,+CA+90266,+%D0%A1%D0%A8%D0%90/@33.8833956,-118.4103216,19.75z/data=!4m5!3m4!1s0x80c2b3eca6743829:0x98448969b9b4373d!8m2!3d33.8835263!4d-118.4103286?hl=ru"
+                  rel="noreferrer nofollow noopener"
+                  target="_blank"
+                  >1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</a
+                >
+              </li>
+            </ul>
+
+            <!-- week -->
+            <ul class="contacts__week">
+              <li class="contacts__week-item">
+                <p class="contacts__week-day">Monday - Friday</p>
+                <p class="contacts__week-time">06:00 AM - 10:00 PM</p>
+              </li>
+
+              <li class="contacts__week-item">
+                <p class="contacts__week-day">Saturday - Sunday</p>
+                <p class="contacts__week-time">08:00 AM - 16:00 PM</p>
+              </li>
+            </ul>
+
+            <!-- communicate -->
+            <ul class="contacts__communication">
+              <li class="contacts__communication-item">
+                <a
+                  class="contacts__communication-link"
+                  href="tel:+610383766284"
+                >
+                  +61(0) 383 766 284
+                </a>
+              </li>
+
+              <li class="contacts__communication-item">
+                <a
+                  class="contacts__communication-link"
+                  href="mailto:noreply@envato.com"
+                >
+                  noreply@envato.com
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- card three -->
+          <li class="contacts__list-item">
+            <h3 class="visually-hidden">Location card three</h3>
+
+            <b class="contacts__category">cafe</b>
+
+            <!-- location -->
+            <ul class="contacts__location-list">
+              <li class="contacts__location-item">
+                <p class="contacts__location-text">New York</p>
+              </li>
+
+              <li class="contacts__location-item">
+                <a
+                  class="contacts__location-link contacts__location-link--width"
+                  href="https://www.google.com.ua/maps/place/726+Sterling+Pl,+Brooklyn,+NY+11216,+%D0%A1%D0%A8%D0%90/@40.6725443,-73.9548265,20z/data=!4m5!3m4!1s0x89c25b9e1735b38f:0xb5fe454b88e9c2c0!8m2!3d40.6726938!4d-73.954734?hl=ru"
+                  rel="noreferrer nofollow noopener"
+                  target="_blank"
+                  >726 Sterling Pl, Brooklyn, NY 11222, USA</a
+                >
+              </li>
+            </ul>
+
+            <!-- week -->
+            <ul class="contacts__week">
+              <li class="contacts__week-item">
+                <p class="contacts__week-day">Monday - Friday</p>
+                <p class="contacts__week-time">06:00 AM - 10:00 PM</p>
+              </li>
+
+              <li class="contacts__week-item">
+                <p class="contacts__week-day">Saturday - Sunday</p>
+                <p class="contacts__week-time">08:00 AM - 16:00 PM</p>
+              </li>
+            </ul>
+
+            <!-- communicate -->
+            <ul class="contacts__communication">
+              <li class="contacts__communication-item">
+                <a
+                  class="contacts__communication-link"
+                  href="tel:+610383766284"
+                >
+                  +61(0) 383 766 284
+                </a>
+              </li>
+
+              <li class="contacts__communication-item">
+                <a
+                  class="contacts__communication-link"
+                  href="mailto:noreply@envato.com"
+                >
+                  noreply@envato.com
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- buttons -->
+
+        <ul class="contacts__list-btn">
+          <li class="contacts__item-btn">
+            <button
+              class="contacts__btn contacts__btn--location"
+              data-modal-open
+            >
+              Our Locations
+              <svg class="contacts__btn-icon" width="12" height="12">
+                <use
+                  href="./images/svg/symbol-defs.svg#icon-contacts-btn-arrow"
+                ></use>
+              </svg>
+            </button>
+          </li>
+
+          <li class="contacts__item-btn">
+            <button class="contacts__btn contacts__btn--franchise">
+              Franchise
+              <svg class="contacts__btn-icon" width="12" height="12">
+                <use
+                  href="./images/svg/symbol-defs.svg#icon-contacts-btn-arrow"
+                ></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- <section>
+      <div class="test-div">
+        <label class="tests">
+          <input class="sss rts" type="checkbox" />
+          <span class="rrrr">
+            <span class="fts">RGBS</span>
+          </span>
+        </label>
+      </div> -->
+    </section>
+
+    <section>
+      <div class="container">
+        <form class="ice-cream">
+          <ul class="test-list">
+            <li class="test-item">
+              <label>
+            <input class="test__input" type="checkbox" />
+            <span class="test-span test-span--green">
+              <span class="test-span1 test-span1--green">
+                <picture>
+
+                  <source              
+                  srcset="
+                    ./images/modal-buy-now/img1lg@1x.webp 1x,
+                    ./images/modal-buy-now/img1lg@2x.webp 2x
+                  "
+                />
+
+                  <source
+                  srcset="
+                    ./images/modal-buy-now/img1lg@1x.jpg 1x,
+                    ./images/modal-buy-now/img1lg@2x.jpg 2x
+                  "
+                />
+                <img class="test-img" src="./images/modal-buy-now/img1lg@1x.jpg" alt="test">
+                </picture>
+              </span>
+              <p class="test-span2">ice cream</p>
+            </span>
+          </label>
+            </li>
+
+            <li class="test-item">
+              <label>
+            <input class="test__input" type="checkbox" />
+            <span class="test-span test-span--yellow">
+              <span class="test-span1 test-span1--yellow">
+               <picture>
+
+                <source
+                  srcset="
+                    ./images/modal-buy-now/img2lg@1x.webp 1x,
+                    ./images/modal-buy-now/img2lg@2x.webp 2x
+                  "
+                />
+
+                  <source
+                  srcset="
+                    ./images/modal-buy-now/img2lg@1x.jpg 1x,
+                    ./images/modal-buy-now/img2lg@2x.jpg 2x
+                  "
+                />
+                <img class="test-img" src="./images/modal-buy-now/img2lg@1x.jpg" alt="test">
+                </picture>
+              </span>
+              <p class="test-span2">ice coffee</p>
+            </span>
+          </label>
+            </li>
+
+            <li class="test-item">
+              <label>
+            <input class="test__input" type="checkbox" />
+            <span class="test-span test-span--red">
+              <span class="test-span1 test-span1--red">
+                
+                <picture>
+
+                  <source
+                  srcset="
+                    ./images/modal-buy-now/img3lg@1x.webp 1x,
+                    ./images/modal-buy-now/img3lg@2x.webp 2x
+                  "
+                />
+
+                  <source
+                  srcset="
+                    ./images/modal-buy-now/img3lg@1x.jpg 1x,
+                    ./images/modal-buy-now/img3lg@2x.jpg 2x
+                  "
+                />
+                <img class="test-img" src="./images/modal-buy-now/img3lg@1x.jpg" alt="test">
+                </picture>
+
+              </span>
+              <p class="test-span2">milkshake</p>
+            </span>
+          </label>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+    <!-- =========================================== -->
+
+    <section class="s">
+      <div class="container">
+        <div class="box1">
+          <img class="img-img" src="./images/777.png" alt="">
+          <div class="mini-box mini-box-1"></div>
+          <div class="mini-box mini-box-2"></div>
+          <div class="mini-box mini-box-3"></div>
+          <div class="mini-box mini-box-4"></div>
+          <div class="mini-box mini-box-5"></div>
+          <div class="mini-box mini-box-6"></div>
+          <div class="mini-box mini-box-7"></div>
+          <div class="mini-box mini-box-8"></div>
+          <div class="mini-box mini-box-9"></div>
+          <div class="mini-box mini-box-10"></div>
+          <div class="mini-box mini-box-11"></div>
+          <div class="mini-box mini-box-12"></div>
+          <div class="mini-box mini-box-13"></div>
+          <div class="mini-box mini-box-14"></div>
+          <div class="mini-box mini-box-15"></div>
+          <div class="mini-box mini-box-16"></div>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="contacts__modal modal">
+        <button class="modal__close-btn" type="button" data-modal-close>
+          <svg class="modal__close-icon" width="20" height="20">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <h2 class="contacts__modal-title">Our Locations</h2>
+
+        <!-- Slider main container -->
+        <div class="contacts__swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <iframe
+                class="contacts__iframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1648.4259081374512!2d-87.78024475719457!3d41.70319732047199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e39ad302b2c19%3A0xc808e9b14d04eb2b!2s10340%20Ridgeland%20Ave%2C%20Chicago%20Ridge%2C%20IL%2060415%2C%20%D0%A1%D0%A8%D0%90!5e1!3m2!1sru!2sua!4v1671149861794!5m2!1sru!2sua"
+                width="448"
+                height="260"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+
+              <div class="undertext">Chicago</div>
+            </div>
+            <div class="swiper-slide">
+              <iframe
+                class="contacts__iframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1832.9535289900734!2d-118.4108865015771!3d33.88308984702833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b3eca6743829%3A0x98448969b9b4373d!2s1003%20Manhattan%20Ave%2C%20Manhattan%20Beach%2C%20CA%2090266%2C%20%D0%A1%D0%A8%D0%90!5e1!3m2!1sru!2sua!4v1671149749817!5m2!1sru!2sua"
+                width="448"
+                height="260"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+
+              <div class="undertext">Los Angeles</div>
+            </div>
+            <div class="swiper-slide">
+              <iframe
+                class="contacts__iframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d837.2879313902899!2d-73.95506525478928!3d40.672711070953284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b9e1a049759%3A0x54b2c2c0bb508d73!2zMTQ4MCBCZWRmb3JkIEF2ZSwgQnJvb2tseW4sIE5ZIDExMjE2LCDQodCo0JA!5e1!3m2!1sru!2sua!4v1671149214132!5m2!1sru!2sua"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+
+              <div class="undertext">New York</div>
+            </div>
+          </div>
+
+          <!-- slider btn -->
+          <div class="slider-btn-box">
+            <div class="swiper-button-prev">
+              <svg class="contacts__slider-icon" width="30" height="30">
+                <use
+                  href="./images/svg/arrows.svg#icon-contact-arrow-left"
+                ></use>
+              </svg>
+            </div>
+            <div class="swiper-button-next">
+              <svg class="contacts__slider-icon" width="30" height="30">
+                <use
+                  href="./images/svg/arrows.svg#icon-contact-arrow-right"
+                ></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <a
+          class="contacts__btn-modal"
+          href="https://www.google.com.ua/maps/@35.6073249,-87.9738255,4.75z?hl=ru"
+          rel="noreferrer nofollow noopener"
+          target="_blank"
+        >
+          Open Map
+        </a>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+  </body>
+</html>
